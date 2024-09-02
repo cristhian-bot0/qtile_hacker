@@ -16,10 +16,6 @@ git clone https://github.com/cristhian-bot0/qtile.git
 cp -r dotfiles/.config/qtile ~/.config
 ```
 
-```bash
-git clone https://github.com/antoniosarosi/dotfiles.git
-cp -r dotfiles/.config/qtile ~/.config
-```
 Cambiar el shell con el comando **[chsh](https://www.ochobitshacenunbyte.com/2020/03/02/cambiar-la-shell-de-un-usuario-en-linux-con-chsh/)**: 
 
 
