@@ -10,10 +10,9 @@ sudo pacman -S qtile git firefox code kitty feh picom dmenu
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 ```
 
-3. Clonar mi repositorio : 
+3. Clonar mi repositorio y moverlo como .config a tu sistema : 
 ```
-git clone https://github.com/cristhian-bot0/qtile.git
-cp -r dotfiles/.config/qtile ~/.config
+git clone https://github.com/cristhian-bot0/qtile_hacker.git
 ```
 
 Cambiar el shell con el comando **[chsh](https://www.ochobitshacenunbyte.com/2020/03/02/cambiar-la-shell-de-un-usuario-en-linux-con-chsh/)**: 
