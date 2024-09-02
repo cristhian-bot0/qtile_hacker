@@ -10,14 +10,11 @@ sudo pacman -S qtile git firefox code kitty feh picom dmenu
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 ```
 
-Clonar mi repositorio : 
+3. Clonar mi repositorio : 
 ```
 git clone https://github.com/cristhian-bot0/qtile.git
+cp -r dotfiles/.config/qtile ~/.config
 ```
- : 
-**[picom](https://wiki.archlinux.org/title/Picom)**
-
-Clone this repository and copy my configs:
 
 ```bash
 git clone https://github.com/antoniosarosi/dotfiles.git
@@ -83,3 +80,5 @@ the name of the theme you want in a file named ```./config.json```:
 ##  app-adittional
 
 acpi -> mirar el porcentaje de la bateria
+**[picom](https://wiki.archlinux.org/title/Picom)** -> para la opacidad de ventanas
+
