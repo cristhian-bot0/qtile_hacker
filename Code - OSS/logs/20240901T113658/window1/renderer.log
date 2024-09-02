@@ -1,0 +1,10 @@
+2024-09-01 11:37:00.947 [info] Started local extension host with pid 5598.
+2024-09-01 11:37:03.598 [info] [perf] Render performance baseline is 21ms
+2024-09-01 11:56:49.538 [error] Unable to read file '/home/proyecto/.config/QtProject.conf' (Error: File not modified since): Error: Unable to read file '/home/proyecto/.config/QtProject.conf' (Error: File not modified since)
+    at r.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:662:19353)
+    at r.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:662:19238)
+    at async b.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2450:35468)
+    at async b.readStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2450:35225)
+    at async P.Db (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2439:12236)
+    at async P.resolve (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2439:10648)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2450:31253

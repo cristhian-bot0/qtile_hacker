@@ -1,0 +1,120 @@
+2024-08-31 17:02:16.641 [info] [main] Log level: Info
+2024-08-31 17:02:16.641 [info] [main] Validating found git in: "git"
+2024-08-31 17:02:16.641 [info] [main] Using git "2.46.0" from "git"
+2024-08-31 17:02:16.641 [info] [Model][doInitialScan] Initial repository scan started
+2024-08-31 17:02:16.641 [info] > git rev-parse --show-toplevel [6ms]
+2024-08-31 17:02:16.641 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-31 17:02:16.641 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-31 17:02:16.652 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-08-31 17:02:16.660 [info] [Model][openRepository] Opened repository: /home/proyecto/.config/qtile
+2024-08-31 17:02:16.686 [info] > git rev-parse --show-toplevel [7ms]
+2024-08-31 17:02:16.686 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-31 17:02:16.686 [info] > git config --get commit.template [11ms]
+2024-08-31 17:02:16.699 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-31 17:02:16.699 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-31 17:02:16.704 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-31 17:02:16.704 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-31 17:02:16.710 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-31 17:02:16.710 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-31 17:02:16.716 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-31 17:02:16.716 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-31 17:02:16.721 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-31 17:02:16.721 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-31 17:02:16.728 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-31 17:02:16.728 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-31 17:02:16.733 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-31 17:02:16.733 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-31 17:02:16.739 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-31 17:02:16.739 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-31 17:02:16.745 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-31 17:02:16.745 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-31 17:02:16.751 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-31 17:02:16.751 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-31 17:02:16.751 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-08-31 17:02:16.783 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-31 17:02:16.783 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-31 17:02:16.861 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-31 17:02:16.861 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-31 17:02:17.096 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [404ms]
+2024-08-31 17:02:17.101 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-08-31 17:02:17.103 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-08-31 17:02:17.112 [info] > git status -z -uall [4ms]
+2024-08-31 17:02:17.127 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-08-31 17:02:17.134 [info] > git config --get commit.template [6ms]
+2024-08-31 17:02:17.136 [info] > git config --local branch.main.vscode-merge-base [4ms]
+2024-08-31 17:02:17.159 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [18ms]
+2024-08-31 17:02:17.167 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2024-08-31 17:02:17.171 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-08-31 17:02:17.175 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-08-31 17:02:17.176 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-08-31 17:02:17.180 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [9ms]
+2024-08-31 17:02:17.185 [info] > git status -z -uall [5ms]
+2024-08-31 17:02:17.192 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-08-31 17:02:17.197 [info] > git diff --name-status -z --diff-filter=ADMR 8350efef5d80655911fae01a423003c635048979...refs/remotes/origin/main [13ms]
+2024-08-31 17:02:17.200 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-08-31 17:02:17.206 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-08-31 17:02:17.228 [info] > git check-ignore -v -z --stdin [2ms]
+2024-08-31 17:02:17.527 [info] > git show --textconv :settings/groups.py [8ms]
+2024-08-31 17:02:17.529 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/settings/groups.py [2ms]
+2024-08-31 17:02:17.537 [info] > git cat-file -s ca249e162d8759cd0f0d5a9fcd9d0ce75187ef2c [2ms]
+2024-08-31 17:02:18.078 [info] > git rev-parse --show-toplevel [5ms]
+2024-08-31 17:02:18.078 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-31 17:02:20.419 [info] > git check-ignore -v -z --stdin [2ms]
+2024-08-31 17:02:22.068 [info] > git show --textconv :autostart.sh [6ms]
+2024-08-31 17:02:22.068 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/autostart.sh [1ms]
+2024-08-31 17:02:22.075 [info] > git cat-file -s 9ed26a59e3a140f4064d148360091051fd93dce3 [1ms]
+2024-08-31 17:02:25.958 [info] > git config --get commit.template [1ms]
+2024-08-31 17:02:25.966 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-08-31 17:02:25.972 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-08-31 17:02:25.974 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-08-31 17:02:25.982 [info] > git status -z -uall [3ms]
+2024-08-31 17:02:25.990 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-08-31 17:02:25.995 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-08-31 17:02:25.999 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-08-31 17:22:41.944 [info] > git show --textconv :config.py [6ms]
+2024-08-31 17:22:41.945 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/config.py [3ms]
+2024-08-31 17:22:41.949 [info] > git cat-file -s 2eef7a472552e2416995ca2de45df6d9bfa60b27 [1ms]
+2024-08-31 17:22:42.311 [info] > git show --textconv :config.json [5ms]
+2024-08-31 17:22:42.312 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/config.json [2ms]
+2024-08-31 17:22:43.010 [info] > git show --textconv :config.py [8ms]
+2024-08-31 17:22:43.011 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/config.py [2ms]
+2024-08-31 17:22:43.018 [info] > git cat-file -s 2eef7a472552e2416995ca2de45df6d9bfa60b27 [2ms]
+2024-08-31 17:22:48.050 [info] > git show --textconv :settings/groups.py [6ms]
+2024-08-31 17:22:48.051 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/settings/groups.py [2ms]
+2024-08-31 17:22:48.058 [info] > git cat-file -s ca249e162d8759cd0f0d5a9fcd9d0ce75187ef2c [2ms]
+2024-08-31 17:22:54.016 [info] > git config --get commit.template [5ms]
+2024-08-31 17:22:54.017 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-08-31 17:22:54.021 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-08-31 17:22:54.021 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2024-08-31 17:22:54.027 [info] > git status -z -uall [2ms]
+2024-08-31 17:22:54.035 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-08-31 17:22:54.042 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-08-31 17:22:54.048 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-08-31 17:25:56.157 [info] > git show --textconv :config.json [8ms]
+2024-08-31 17:25:56.158 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/config.json [2ms]
+2024-08-31 17:25:56.658 [info] > git show --textconv :autostart.sh [4ms]
+2024-08-31 17:25:56.659 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/autostart.sh [1ms]
+2024-08-31 17:25:56.663 [info] > git cat-file -s 9ed26a59e3a140f4064d148360091051fd93dce3 [1ms]
+2024-08-31 17:26:28.823 [info] > git config --get commit.template [1ms]
+2024-08-31 17:26:28.828 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-08-31 17:26:28.831 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-08-31 17:26:28.832 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-08-31 17:26:28.838 [info] > git status -z -uall [2ms]
+2024-08-31 17:26:28.843 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-08-31 17:26:28.848 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-08-31 17:26:28.853 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]

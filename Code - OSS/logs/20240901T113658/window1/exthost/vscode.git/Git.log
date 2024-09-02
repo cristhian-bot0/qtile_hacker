@@ -1,0 +1,484 @@
+2024-09-01 11:37:01.605 [info] [main] Log level: Info
+2024-09-01 11:37:01.605 [info] [main] Validating found git in: "git"
+2024-09-01 11:37:01.605 [info] [main] Using git "2.46.0" from "git"
+2024-09-01 11:37:01.605 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-01 11:37:01.605 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-01 11:37:01.605 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 11:37:01.605 [info] > git rev-parse --show-toplevel [11ms]
+2024-09-01 11:37:01.606 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-09-01 11:37:01.610 [info] [Model][openRepository] Opened repository: /home/proyecto/.config/qtile
+2024-09-01 11:37:01.618 [info] > git config --get commit.template [4ms]
+2024-09-01 11:37:01.625 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-01 11:37:01.625 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 11:37:01.625 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-09-01 11:37:01.631 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 11:37:01.633 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-01 11:37:01.636 [info] > git rev-parse --show-toplevel [7ms]
+2024-09-01 11:37:01.636 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 11:37:01.641 [info] > git status -z -uall [5ms]
+2024-09-01 11:37:01.642 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-01 11:37:01.642 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 11:37:01.660 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2024-09-01 11:37:01.670 [info] > git config --local branch.main.vscode-merge-base [6ms]
+2024-09-01 11:37:01.674 [info] > git config --get commit.template [16ms]
+2024-09-01 11:37:01.674 [info] > git rev-parse --show-toplevel [22ms]
+2024-09-01 11:37:01.674 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 11:37:01.679 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [6ms]
+2024-09-01 11:37:01.698 [info] > git merge-base refs/heads/main refs/remotes/origin/main [14ms]
+2024-09-01 11:37:01.701 [info] > git rev-parse --show-toplevel [22ms]
+2024-09-01 11:37:01.701 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 11:37:01.707 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [6ms]
+2024-09-01 11:37:01.711 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-09-01 11:37:01.721 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 11:37:01.722 [info] > git diff --name-status -z --diff-filter=ADMR 8350efef5d80655911fae01a423003c635048979...refs/remotes/origin/main [12ms]
+2024-09-01 11:37:01.723 [info] > git rev-parse --show-toplevel [15ms]
+2024-09-01 11:37:01.723 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 11:37:01.726 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2024-09-01 11:37:01.730 [info] > git rev-parse --show-toplevel [4ms]
+2024-09-01 11:37:01.730 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 11:37:01.734 [info] > git status -z -uall [5ms]
+2024-09-01 11:37:01.740 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 11:37:01.743 [info] > git rev-parse --show-toplevel [9ms]
+2024-09-01 11:37:01.743 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 11:37:01.751 [info] > git config --local branch.main.vscode-merge-base [7ms]
+2024-09-01 11:37:01.756 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2024-09-01 11:37:01.756 [info] > git rev-parse --show-toplevel [6ms]
+2024-09-01 11:37:01.756 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 11:37:01.761 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-01 11:37:01.761 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 11:37:01.765 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-01 11:37:01.765 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 11:37:01.768 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-01 11:37:01.768 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 11:37:01.768 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-09-01 11:37:01.772 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-01 11:37:01.772 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 11:37:01.775 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-01 11:37:01.775 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 11:37:01.777 [info] > git rev-parse --show-toplevel [0ms]
+2024-09-01 11:37:01.777 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 11:37:01.997 [info] > git show --textconv :autostart.sh [3ms]
+2024-09-01 11:37:01.997 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/autostart.sh [0ms]
+2024-09-01 11:37:02.000 [info] > git cat-file -s 9ed26a59e3a140f4064d148360091051fd93dce3 [1ms]
+2024-09-01 11:37:02.170 [info] > git check-ignore -v -z --stdin [1ms]
+2024-09-01 11:37:03.427 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-01 11:37:03.427 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 11:39:18.001 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-01 11:39:18.001 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 11:39:36.112 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-01 11:39:36.112 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 11:39:36.184 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-01 11:39:36.184 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 11:39:53.102 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-01 11:39:53.102 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 11:40:11.972 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-01 11:40:11.972 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 11:40:24.578 [info] > git rev-parse --show-toplevel [0ms]
+2024-09-01 11:40:24.579 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 11:40:27.774 [info] > git show --textconv :autostart.sh [3ms]
+2024-09-01 11:40:27.774 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/autostart.sh [0ms]
+2024-09-01 11:40:27.777 [info] > git cat-file -s 9ed26a59e3a140f4064d148360091051fd93dce3 [0ms]
+2024-09-01 11:41:31.337 [info] > git config --get commit.template [10ms]
+2024-09-01 11:41:31.338 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 11:41:31.343 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 11:41:31.345 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-01 11:41:31.356 [info] > git status -z -uall [3ms]
+2024-09-01 11:41:31.365 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-01 11:41:31.370 [info] > git config --local branch.main.vscode-merge-base [0ms]
+2024-09-01 11:41:31.374 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-09-01 11:53:18.059 [info] > git config --get commit.template [8ms]
+2024-09-01 11:53:18.060 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 11:53:18.068 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 11:53:18.069 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-01 11:53:18.076 [info] > git status -z -uall [2ms]
+2024-09-01 11:53:18.085 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-01 11:53:18.090 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-01 11:53:18.095 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-09-01 11:53:41.105 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-01 11:53:41.105 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 11:55:12.966 [info] > git show --textconv :autostart.sh [4ms]
+2024-09-01 11:55:12.966 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/autostart.sh [1ms]
+2024-09-01 11:55:12.970 [info] > git cat-file -s 9ed26a59e3a140f4064d148360091051fd93dce3 [1ms]
+2024-09-01 11:55:13.914 [info] > git check-ignore -v -z --stdin [1ms]
+2024-09-01 11:55:21.768 [info] > git show --textconv :settings/groups.py [7ms]
+2024-09-01 11:55:21.769 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/settings/groups.py [3ms]
+2024-09-01 11:55:21.774 [info] > git cat-file -s ca249e162d8759cd0f0d5a9fcd9d0ce75187ef2c [1ms]
+2024-09-01 11:56:45.623 [info] > git show --textconv :autostart.sh [9ms]
+2024-09-01 11:56:45.624 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/autostart.sh [2ms]
+2024-09-01 11:56:45.633 [info] > git cat-file -s 9ed26a59e3a140f4064d148360091051fd93dce3 [2ms]
+2024-09-01 11:56:45.722 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-01 11:56:45.722 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 11:56:49.776 [info] > git show --textconv :config.json [5ms]
+2024-09-01 11:56:49.777 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/config.json [2ms]
+2024-09-01 11:56:50.174 [info] > git show --textconv :settings/keys.py [4ms]
+2024-09-01 11:56:50.175 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/settings/keys.py [1ms]
+2024-09-01 11:56:50.179 [info] > git cat-file -s e11eae5270a13781f0a0a794436e0cc10abb3e0b [1ms]
+2024-09-01 11:56:50.268 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-01 11:56:50.268 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 11:56:50.494 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-01 11:56:50.494 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 11:56:51.023 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-01 11:56:51.023 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-01 11:56:53.271 [info] > git show --textconv :settings/__init__.py [8ms]
+2024-09-01 11:56:53.273 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/settings/__init__.py [3ms]
+2024-09-01 11:56:53.282 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [3ms]
+2024-09-01 11:56:54.069 [info] > git show --textconv :settings/groups.py [9ms]
+2024-09-01 11:56:54.071 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/settings/groups.py [3ms]
+2024-09-01 11:56:54.076 [info] > git cat-file -s ca249e162d8759cd0f0d5a9fcd9d0ce75187ef2c [2ms]
+2024-09-01 11:56:54.674 [info] > git show --textconv :settings/keys.py [5ms]
+2024-09-01 11:56:54.675 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/settings/keys.py [1ms]
+2024-09-01 11:56:54.683 [info] > git cat-file -s e11eae5270a13781f0a0a794436e0cc10abb3e0b [2ms]
+2024-09-01 11:58:26.054 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-01 11:58:26.054 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 12:03:01.447 [info] > git show --textconv :settings/keys.py [9ms]
+2024-09-01 12:03:01.449 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/settings/keys.py [3ms]
+2024-09-01 12:03:01.458 [info] > git cat-file -s e11eae5270a13781f0a0a794436e0cc10abb3e0b [2ms]
+2024-09-01 12:03:36.430 [info] > git config --get commit.template [7ms]
+2024-09-01 12:03:36.431 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:03:36.436 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:03:36.437 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-01 12:03:36.444 [info] > git status -z -uall [2ms]
+2024-09-01 12:03:36.452 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-01 12:03:36.459 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-01 12:03:36.466 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-09-01 12:03:44.900 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-01 12:03:47.492 [info] > git show --textconv :themes/dark-grey.json [6ms]
+2024-09-01 12:03:47.492 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/themes/dark-grey.json [1ms]
+2024-09-01 12:03:47.499 [info] > git cat-file -s c51e330361e03ee90161842cf1b98c280265ed63 [2ms]
+2024-09-01 12:03:55.190 [info] > git show --textconv :themes/metal-dark.json [7ms]
+2024-09-01 12:03:55.191 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/themes/metal-dark.json [2ms]
+2024-09-01 12:03:55.460 [info] > git check-ignore -v -z --stdin [1ms]
+2024-09-01 12:03:56.009 [info] > git config --get commit.template [1ms]
+2024-09-01 12:03:56.019 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-01 12:03:56.027 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:03:56.029 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-09-01 12:03:56.037 [info] > git status -z -uall [3ms]
+2024-09-01 12:03:56.045 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:03:56.052 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-01 12:03:56.058 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-09-01 12:03:56.536 [info] > git show --textconv :themes/dark-grey.json [10ms]
+2024-09-01 12:03:56.538 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/themes/dark-grey.json [3ms]
+2024-09-01 12:03:56.547 [info] > git cat-file -s c51e330361e03ee90161842cf1b98c280265ed63 [3ms]
+2024-09-01 12:03:58.424 [info] > git show --textconv :themes/metal-dark.json [6ms]
+2024-09-01 12:03:58.424 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/themes/metal-dark.json [1ms]
+2024-09-01 12:04:01.053 [info] > git config --get commit.template [1ms]
+2024-09-01 12:04:01.060 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-01 12:04:01.066 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:04:01.072 [info] > git rev-parse refs/remotes/origin/main [6ms]
+2024-09-01 12:04:01.084 [info] > git show --textconv :themes/dark-grey.json [13ms]
+2024-09-01 12:04:01.084 [info] > git status -z -uall [6ms]
+2024-09-01 12:04:01.092 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:04:01.098 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/themes/dark-grey.json [15ms]
+2024-09-01 12:04:01.105 [info] > git config --local branch.main.vscode-merge-base [6ms]
+2024-09-01 12:04:01.111 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2024-09-01 12:04:01.112 [info] > git cat-file -s c51e330361e03ee90161842cf1b98c280265ed63 [9ms]
+2024-09-01 12:04:02.385 [info] > git show --textconv :themes/metal-dark.json [9ms]
+2024-09-01 12:04:02.385 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/themes/metal-dark.json [2ms]
+2024-09-01 12:04:02.682 [info] > git show --textconv :themes/dark-grey copy.json [6ms]
+2024-09-01 12:04:02.683 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/themes/dark-grey copy.json [2ms]
+2024-09-01 12:04:02.943 [info] > git check-ignore -v -z --stdin [1ms]
+2024-09-01 12:04:04.376 [info] > git show --textconv :themes/metal-dark.json [7ms]
+2024-09-01 12:04:04.376 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/themes/metal-dark.json [1ms]
+2024-09-01 12:04:06.111 [info] > git config --get commit.template [9ms]
+2024-09-01 12:04:06.113 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-01 12:04:06.120 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:04:06.123 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-09-01 12:04:06.131 [info] > git status -z -uall [2ms]
+2024-09-01 12:04:06.140 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:04:06.146 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-01 12:04:06.152 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-09-01 12:04:07.182 [info] > git show --textconv :themes/dark-grey copy.json [6ms]
+2024-09-01 12:04:07.183 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/themes/dark-grey copy.json [2ms]
+2024-09-01 12:04:11.806 [info] > git show --textconv :themes/metal-dark.json [7ms]
+2024-09-01 12:04:11.807 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/themes/metal-dark.json [2ms]
+2024-09-01 12:04:13.516 [info] > git config --get commit.template [6ms]
+2024-09-01 12:04:13.517 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:04:13.522 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:04:13.523 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-01 12:04:13.529 [info] > git status -z -uall [2ms]
+2024-09-01 12:04:13.538 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-01 12:04:13.545 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-01 12:04:13.551 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-09-01 12:04:14.549 [info] > git show --textconv :themes/dark-grey.json [5ms]
+2024-09-01 12:04:14.550 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/themes/dark-grey.json [2ms]
+2024-09-01 12:04:14.556 [info] > git cat-file -s c51e330361e03ee90161842cf1b98c280265ed63 [2ms]
+2024-09-01 12:04:14.890 [info] > git show --textconv :themes/dark-grey copy.json [8ms]
+2024-09-01 12:04:14.891 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/themes/dark-grey copy.json [2ms]
+2024-09-01 12:04:19.463 [info] > git show --textconv :themes/dark-grey.json [5ms]
+2024-09-01 12:04:19.464 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/themes/dark-grey.json [1ms]
+2024-09-01 12:04:19.470 [info] > git cat-file -s c51e330361e03ee90161842cf1b98c280265ed63 [1ms]
+2024-09-01 12:04:20.286 [info] > git config --get commit.template [1ms]
+2024-09-01 12:04:20.292 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-01 12:04:20.296 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:04:20.297 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-01 12:04:20.304 [info] > git status -z -uall [2ms]
+2024-09-01 12:04:20.313 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:04:20.320 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-01 12:04:20.326 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-09-01 12:04:23.694 [info] > git show --textconv :themes/metal-dark.json [6ms]
+2024-09-01 12:04:23.695 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/themes/metal-dark.json [1ms]
+2024-09-01 12:04:29.159 [info] > git config --get commit.template [10ms]
+2024-09-01 12:04:29.159 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:04:29.164 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:04:29.166 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-01 12:04:29.175 [info] > git status -z -uall [3ms]
+2024-09-01 12:04:29.184 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-01 12:04:29.189 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-01 12:04:29.193 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-09-01 12:04:32.031 [info] > git show --textconv :autostart.sh [5ms]
+2024-09-01 12:04:32.031 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/autostart.sh [1ms]
+2024-09-01 12:04:32.035 [info] > git cat-file -s 9ed26a59e3a140f4064d148360091051fd93dce3 [1ms]
+2024-09-01 12:04:34.173 [info] > git show --textconv :config.json [7ms]
+2024-09-01 12:04:34.174 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/config.json [2ms]
+2024-09-01 12:04:39.903 [info] > git config --get commit.template [1ms]
+2024-09-01 12:04:39.910 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:04:39.914 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:04:39.916 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-01 12:04:39.924 [info] > git status -z -uall [3ms]
+2024-09-01 12:04:39.934 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-01 12:04:39.938 [info] > git config --local branch.main.vscode-merge-base [0ms]
+2024-09-01 12:04:39.943 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-09-01 12:04:52.091 [info] > git show --textconv :themes/metal-dark.json [5ms]
+2024-09-01 12:04:52.092 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/themes/metal-dark.json [1ms]
+2024-09-01 12:05:14.854 [info] > git config --get commit.template [7ms]
+2024-09-01 12:05:14.854 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-01 12:05:14.859 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:05:14.860 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-01 12:05:14.867 [info] > git status -z -uall [2ms]
+2024-09-01 12:05:14.877 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-01 12:05:14.884 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-01 12:05:14.892 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-09-01 12:05:24.798 [info] > git config --get commit.template [7ms]
+2024-09-01 12:05:24.798 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-01 12:05:24.804 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:05:24.805 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-01 12:05:24.812 [info] > git status -z -uall [2ms]
+2024-09-01 12:05:24.821 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-01 12:05:24.829 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-01 12:05:24.835 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-09-01 12:05:34.475 [info] > git config --get commit.template [6ms]
+2024-09-01 12:05:34.476 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:05:34.481 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:05:34.482 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-01 12:05:34.488 [info] > git status -z -uall [2ms]
+2024-09-01 12:05:34.495 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:05:34.501 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-01 12:05:34.508 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2024-09-01 12:05:52.479 [info] > git config --get commit.template [6ms]
+2024-09-01 12:05:52.479 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:05:52.485 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:05:52.486 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-01 12:05:52.493 [info] > git status -z -uall [2ms]
+2024-09-01 12:05:52.501 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:05:52.509 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-01 12:05:52.516 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-09-01 12:06:03.757 [info] > git config --get commit.template [6ms]
+2024-09-01 12:06:03.757 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-01 12:06:03.763 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:06:03.764 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-01 12:06:03.771 [info] > git status -z -uall [2ms]
+2024-09-01 12:06:03.781 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:06:03.790 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-01 12:06:03.798 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2024-09-01 12:06:10.304 [info] > git config --get commit.template [1ms]
+2024-09-01 12:06:10.314 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-01 12:06:10.316 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:06:10.317 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-01 12:06:10.326 [info] > git status -z -uall [3ms]
+2024-09-01 12:06:10.335 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:06:10.340 [info] > git config --local branch.main.vscode-merge-base [0ms]
+2024-09-01 12:06:10.345 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-09-01 12:06:37.418 [info] > git config --get commit.template [1ms]
+2024-09-01 12:06:37.426 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-01 12:06:37.430 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:06:37.432 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-01 12:06:37.439 [info] > git status -z -uall [2ms]
+2024-09-01 12:06:37.447 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:06:37.454 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-01 12:06:37.461 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-09-01 12:06:43.284 [info] > git config --get commit.template [2ms]
+2024-09-01 12:06:43.291 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:06:43.297 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:06:43.298 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-01 12:06:43.305 [info] > git status -z -uall [1ms]
+2024-09-01 12:06:43.313 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:06:43.321 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-01 12:06:43.328 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-09-01 12:06:51.127 [info] > git config --get commit.template [1ms]
+2024-09-01 12:06:51.134 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-01 12:06:51.140 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:06:51.141 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-01 12:06:51.147 [info] > git status -z -uall [2ms]
+2024-09-01 12:06:51.155 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:06:51.162 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-01 12:06:51.168 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-09-01 12:06:56.355 [info] > git config --get commit.template [6ms]
+2024-09-01 12:06:56.356 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:06:56.361 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:06:56.362 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-01 12:06:56.368 [info] > git status -z -uall [2ms]
+2024-09-01 12:06:56.374 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-01 12:06:56.380 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-01 12:06:56.386 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-09-01 12:07:54.376 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-01 12:07:54.376 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 12:08:06.187 [info] > git show --textconv :themes/metal-dark.json [7ms]
+2024-09-01 12:08:06.187 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/themes/metal-dark.json [1ms]
+2024-09-01 12:08:14.033 [info] > git config --get commit.template [1ms]
+2024-09-01 12:08:14.039 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-01 12:08:14.044 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:08:14.045 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-01 12:08:14.052 [info] > git status -z -uall [1ms]
+2024-09-01 12:08:14.060 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-01 12:08:14.067 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-01 12:08:14.073 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-09-01 12:08:19.072 [info] > git config --get commit.template [3ms]
+2024-09-01 12:08:19.077 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-01 12:08:19.082 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:08:19.084 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-01 12:08:19.093 [info] > git status -z -uall [3ms]
+2024-09-01 12:08:19.101 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:08:19.107 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-01 12:08:19.112 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [0ms]
+2024-09-01 12:08:24.118 [info] > git config --get commit.template [9ms]
+2024-09-01 12:08:24.119 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:08:24.126 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:08:24.128 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-01 12:08:24.138 [info] > git status -z -uall [3ms]
+2024-09-01 12:08:24.146 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:08:24.153 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-01 12:08:24.158 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-09-01 12:08:29.523 [info] > git config --get commit.template [6ms]
+2024-09-01 12:08:29.524 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:08:29.529 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:08:29.530 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-01 12:08:29.537 [info] > git status -z -uall [2ms]
+2024-09-01 12:08:29.546 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-01 12:08:29.553 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-01 12:08:29.560 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2024-09-01 12:09:07.636 [info] > git config --get commit.template [6ms]
+2024-09-01 12:09:07.637 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-01 12:09:07.643 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:09:07.645 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-01 12:09:07.654 [info] > git status -z -uall [3ms]
+2024-09-01 12:09:07.664 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-01 12:09:07.671 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-01 12:09:07.678 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2024-09-01 12:09:23.865 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-01 12:09:23.865 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 12:09:33.613 [info] > git show --textconv :themes/metal-dark.json [6ms]
+2024-09-01 12:09:33.614 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/themes/metal-dark.json [2ms]
+2024-09-01 12:09:43.108 [info] > git config --get commit.template [7ms]
+2024-09-01 12:09:43.108 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-01 12:09:43.114 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:09:43.115 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-01 12:09:43.123 [info] > git status -z -uall [2ms]
+2024-09-01 12:09:43.131 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-01 12:09:43.138 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-01 12:09:43.145 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-09-01 12:09:49.585 [info] > git config --get commit.template [2ms]
+2024-09-01 12:09:49.591 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-01 12:09:49.595 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:09:49.596 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-01 12:09:49.602 [info] > git status -z -uall [2ms]
+2024-09-01 12:09:49.611 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:09:49.617 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-01 12:09:49.624 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2024-09-01 12:16:47.514 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-01 12:16:47.514 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-01 12:16:48.234 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-01 12:16:48.234 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-01 12:17:53.896 [info] > git show --textconv :themes/metal-dark.json [7ms]
+2024-09-01 12:17:53.897 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/themes/metal-dark.json [2ms]
+2024-09-01 12:18:00.040 [info] > git config --get commit.template [1ms]
+2024-09-01 12:18:00.047 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:18:00.052 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:18:00.054 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-01 12:18:00.061 [info] > git status -z -uall [3ms]
+2024-09-01 12:18:00.069 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:18:00.076 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-01 12:18:00.083 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-09-01 12:18:22.773 [info] > git config --get commit.template [6ms]
+2024-09-01 12:18:22.774 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:18:22.778 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:18:22.779 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-01 12:18:22.784 [info] > git status -z -uall [2ms]
+2024-09-01 12:18:22.790 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:18:22.796 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-01 12:18:22.801 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [0ms]
+2024-09-01 12:18:27.811 [info] > git config --get commit.template [9ms]
+2024-09-01 12:18:27.812 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:18:27.819 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:18:27.821 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-01 12:18:27.830 [info] > git status -z -uall [3ms]
+2024-09-01 12:18:27.839 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:18:27.845 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-01 12:18:27.850 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-09-01 12:18:32.848 [info] > git config --get commit.template [1ms]
+2024-09-01 12:18:32.856 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:18:32.858 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:18:32.860 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-01 12:18:32.868 [info] > git status -z -uall [3ms]
+2024-09-01 12:18:32.876 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:18:32.882 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-01 12:18:32.887 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-09-01 12:18:37.897 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-01 12:18:37.897 [info] > git config --get commit.template [11ms]
+2024-09-01 12:18:37.901 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:18:37.902 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-01 12:18:37.910 [info] > git status -z -uall [2ms]
+2024-09-01 12:18:37.919 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:18:37.925 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-01 12:18:37.931 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2024-09-01 12:18:43.514 [info] > git config --get commit.template [6ms]
+2024-09-01 12:18:43.515 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-01 12:18:43.522 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:18:43.523 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-01 12:18:43.531 [info] > git status -z -uall [1ms]
+2024-09-01 12:18:43.539 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:18:43.547 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-01 12:18:43.555 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-09-01 12:19:22.976 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-01 12:19:22.976 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-01 12:19:25.569 [info] > git show --textconv :settings/keys.py [5ms]
+2024-09-01 12:19:25.570 [info] > git ls-files --stage -- /home/proyecto/.config/qtile/settings/keys.py [2ms]
+2024-09-01 12:19:25.574 [info] > git cat-file -s e11eae5270a13781f0a0a794436e0cc10abb3e0b [2ms]
+2024-09-01 12:19:29.714 [info] > git config --get commit.template [6ms]
+2024-09-01 12:19:29.715 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-01 12:19:29.720 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/proyecto/.config/qtile/.git/refs/remotes/origin/main'
+2024-09-01 12:19:29.721 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-01 12:19:29.728 [info] > git status -z -uall [2ms]
+2024-09-01 12:19:29.736 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-01 12:19:29.743 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-01 12:19:29.749 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]

@@ -1,0 +1,5 @@
+{
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.location": "bottom",
+    "window.customTitleBarVisibility": "auto"
+}
