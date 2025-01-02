@@ -3,11 +3,11 @@ Despues de instalar un archlinux limpio ( archinstall )
 ## Descargas dependencias :
 1. Descargamos algunos paquetes utiles 
 ```
-sudo pacman -S git code kitty feh picom dmenu fish 
+sudo pacman -S code kitty feh picom dmenu fish --needed git base-devel
 ```
 2. Descargamos el AUR ( **[yay](https://github.com/Jguer/yay?tab=readme-ov-file)** )
 ```
-sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 ```
 
 3. Clonar mi repositorio y moverlo como .config a tu sistema : 
