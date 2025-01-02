@@ -3,7 +3,7 @@ Despues de instalar un archlinux limpio ( archinstall )
 ## Descargas dependencias :
 1. Descargamos algunos paquetes utiles 
 ```
-sudo pacman -S qtile git firefox code kitty feh picom dmenu fish 
+sudo pacman -S git code kitty feh picom dmenu fish 
 ```
 2. Descargamos el AUR ( **[yay](https://github.com/Jguer/yay?tab=readme-ov-file)** )
 ```
