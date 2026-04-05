@@ -39,6 +39,7 @@ cp -r qtile_hacker/rofi ~/.config/rofi
 cp -r qtile_hacker/picom ~/.config/picom
 cp -r qtile_hacker/fish ~/.config/fish
 cp -r qtile_hacker/wallpapers ~/.config/wallpapers
+cp -r qtile_hacker/gtk-3.0 ~/.config/gtk-3.0
 ```
 
 ### 4.1. Tema de Firefox
@@ -113,6 +114,9 @@ widget.Net(**base(bg='color3'), interface='wlp2s0'),  # cambia wlp2s0 por tu int
 ├── firefox/
 │   ├── userChrome.css   # Tema metal-dark para interfaz de Firefox
 │   └── userContent.css  # Wallpaper en pagina de inicio
+├── gtk-3.0/
+│   ├── settings.ini     # Tema GTK oscuro para Thunar y apps GTK
+│   └── gtk.css          # Colores metal-dark para apps GTK
 ├── picom/
 │   └── picom.conf       # Compositor: sombras, bordes, fading, opacidad
 ├── fish/

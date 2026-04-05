@@ -1,0 +1,164 @@
+/* Metal-Dark theme for GTK3 apps (Thunar, etc.) */
+
+/* --- Ventana principal --- */
+window {
+    background-color: #000000;
+    color: #999999;
+}
+
+/* --- Header bar / barra de titulo --- */
+headerbar {
+    background-color: #37383b;
+    color: #999999;
+    border-bottom: 1px solid #503333;
+}
+
+headerbar:backdrop {
+    background-color: #000000;
+}
+
+/* --- Sidebar / panel lateral --- */
+.sidebar,
+placessidebar,
+placessidebar row {
+    background-color: #000000;
+    color: #999999;
+}
+
+placessidebar row:selected {
+    background-color: #3F575B;
+    color: #999999;
+}
+
+placessidebar row:hover {
+    background-color: #37383b;
+}
+
+/* --- Vista de archivos --- */
+.view,
+treeview,
+iconview {
+    background-color: #000000;
+    color: #999999;
+}
+
+.view:selected,
+treeview row:selected,
+iconview:selected {
+    background-color: #3F575B;
+    color: #999999;
+}
+
+.view:hover,
+treeview row:hover {
+    background-color: #37383b;
+}
+
+/* --- Toolbar / barra de herramientas --- */
+toolbar {
+    background-color: #37383b;
+    color: #999999;
+}
+
+/* --- Botones --- */
+button {
+    background-color: #37383b;
+    color: #999999;
+    border: 1px solid #503333;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #A06666;
+    color: #000000;
+}
+
+button:active,
+button:checked {
+    background-color: #805151;
+    color: #999999;
+}
+
+/* --- Menus --- */
+menu,
+menubar {
+    background-color: #000000;
+    color: #999999;
+}
+
+menu menuitem:hover {
+    background-color: #3F575B;
+    color: #999999;
+}
+
+/* --- Barra de direccion / pathbar --- */
+.path-bar button {
+    background-color: #37383b;
+    color: #999999;
+    border: 1px solid #503333;
+}
+
+.path-bar button:hover {
+    background-color: #A06666;
+}
+
+.path-bar button:checked {
+    background-color: #805151;
+}
+
+/* --- Entry / campo de texto --- */
+entry {
+    background-color: #37383b;
+    color: #999999;
+    border: 1px solid #503333;
+    caret-color: #A06666;
+}
+
+entry:focus {
+    border-color: #A06666;
+}
+
+/* --- Scrollbar --- */
+scrollbar slider {
+    background-color: #503333;
+    border-radius: 4px;
+    min-width: 8px;
+}
+
+scrollbar slider:hover {
+    background-color: #A06666;
+}
+
+scrollbar trough {
+    background-color: #000000;
+}
+
+/* --- Statusbar --- */
+statusbar {
+    background-color: #37383b;
+    color: #999999;
+}
+
+/* --- Tabs / pestanas --- */
+notebook tab {
+    background-color: #37383b;
+    color: #999999;
+    border: 1px solid #503333;
+}
+
+notebook tab:checked {
+    background-color: #3F575B;
+    border-bottom: 2px solid #A06666;
+}
+
+/* --- Tooltip --- */
+tooltip {
+    background-color: #37383b;
+    color: #999999;
+    border: 1px solid #503333;
+}
+
+/* --- Separadores --- */
+separator {
+    background-color: #503333;
+}
