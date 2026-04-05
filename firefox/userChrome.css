@@ -116,27 +116,39 @@
     color: var(--metal-fg) !important;
 }
 
-/* Modo incognito - mas oscuro */
+/* Modo incognito - mas oscuro, eliminar morado nativo */
 :root[privatebrowsingmode="temporary"] {
-    --metal-bg: #000000 !important;
-    --metal-bg-alt: #1a1a1a !important;
-    --metal-fg: #777777 !important;
-    --metal-accent: #6b3a3a !important;
-    --metal-border: #4a2d2d !important;
-    --metal-inactive: #3d5555 !important;
+    --in-content-page-background: #000000 !important;
+    --toolbar-bgcolor: #000000 !important;
+    --toolbar-color: #777777 !important;
+    --tab-selected-bgcolor: #1a1a1a !important;
+    --lwt-accent-color: #000000 !important;
+    --lwt-toolbar-body-color: #777777 !important;
+    --arrowpanel-background: #000000 !important;
+    --arrowpanel-color: #777777 !important;
+    --arrowpanel-border-color: #1a1a1a !important;
+    --urlbar-box-bgcolor: #000000 !important;
+    --urlbar-box-hover-bgcolor: #1a1a1a !important;
+    --urlbar-box-active-bgcolor: #1a1a1a !important;
+    --private-browsing-indicator-color: transparent !important;
 }
 
 :root[privatebrowsingmode="temporary"] #navigator-toolbox {
     --toolbar-bgcolor: #000000 !important;
     --toolbar-color: #777777 !important;
+    background: #000000 !important;
     border-bottom: 1px solid #1a1a1a !important;
 }
 
 :root[privatebrowsingmode="temporary"] #titlebar,
 :root[privatebrowsingmode="temporary"] #TabsToolbar,
 :root[privatebrowsingmode="temporary"] #nav-bar,
-:root[privatebrowsingmode="temporary"] #PersonalToolbar {
+:root[privatebrowsingmode="temporary"] #PersonalToolbar,
+:root[privatebrowsingmode="temporary"] #browser,
+:root[privatebrowsingmode="temporary"] toolbar,
+:root[privatebrowsingmode="temporary"] toolbox {
     background: #000000 !important;
+    --toolbarbutton-icon-fill: #777777 !important;
 }
 
 :root[privatebrowsingmode="temporary"] .tabbrowser-tab[selected] .tab-background {
@@ -144,8 +156,16 @@
     border-bottom: 2px solid #6b3a3a !important;
 }
 
+:root[privatebrowsingmode="temporary"] .tabbrowser-tab:not([selected]) .tab-background {
+    background: #000000 !important;
+}
+
 :root[privatebrowsingmode="temporary"] .tabbrowser-tab:not([selected]):hover .tab-background {
     background: #4a2d2d !important;
+}
+
+:root[privatebrowsingmode="temporary"] .tabbrowser-tab .tab-label {
+    color: #777777 !important;
 }
 
 :root[privatebrowsingmode="temporary"] #urlbar-background {
@@ -158,7 +178,12 @@
     border-color: #4a2d2d !important;
 }
 
-/* Ocultar icono de incognito en la barra */
-:root[privatebrowsingmode="temporary"] #private-browsing-indicator-with-label {
+:root[privatebrowsingmode="temporary"] #urlbar-input {
+    color: #777777 !important;
+}
+
+/* Ocultar indicador de incognito */
+:root[privatebrowsingmode="temporary"] #private-browsing-indicator-with-label,
+:root[privatebrowsingmode="temporary"] .private-browsing-indicator {
     display: none !important;
 }
