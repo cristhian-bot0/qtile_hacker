@@ -115,3 +115,50 @@
     background: var(--metal-bg) !important;
     color: var(--metal-fg) !important;
 }
+
+/* Modo incognito - mas oscuro */
+:root[privatebrowsingmode="temporary"] {
+    --metal-bg: #000000 !important;
+    --metal-bg-alt: #1a1a1a !important;
+    --metal-fg: #777777 !important;
+    --metal-accent: #6b3a3a !important;
+    --metal-border: #4a2d2d !important;
+    --metal-inactive: #3d5555 !important;
+}
+
+:root[privatebrowsingmode="temporary"] #navigator-toolbox {
+    --toolbar-bgcolor: #000000 !important;
+    --toolbar-color: #777777 !important;
+    border-bottom: 1px solid #1a1a1a !important;
+}
+
+:root[privatebrowsingmode="temporary"] #titlebar,
+:root[privatebrowsingmode="temporary"] #TabsToolbar,
+:root[privatebrowsingmode="temporary"] #nav-bar,
+:root[privatebrowsingmode="temporary"] #PersonalToolbar {
+    background: #000000 !important;
+}
+
+:root[privatebrowsingmode="temporary"] .tabbrowser-tab[selected] .tab-background {
+    background: #1a1a1a !important;
+    border-bottom: 2px solid #6b3a3a !important;
+}
+
+:root[privatebrowsingmode="temporary"] .tabbrowser-tab:not([selected]):hover .tab-background {
+    background: #4a2d2d !important;
+}
+
+:root[privatebrowsingmode="temporary"] #urlbar-background {
+    background: #000000 !important;
+    border: 1px solid #1a1a1a !important;
+}
+
+:root[privatebrowsingmode="temporary"] #urlbar:hover #urlbar-background,
+:root[privatebrowsingmode="temporary"] #urlbar[focused] #urlbar-background {
+    border-color: #4a2d2d !important;
+}
+
+/* Ocultar icono de incognito en la barra */
+:root[privatebrowsingmode="temporary"] #private-browsing-indicator-with-label {
+    display: none !important;
+}
