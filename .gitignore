@@ -1,0 +1,10 @@
+Code - OSS/
+dconf/
+go/
+pulse/
+systemd/
+QtProject.conf
+qtile/config.json
+qtile/__pycache__/
+qtile/settings/__pycache__/
+*.pyc
