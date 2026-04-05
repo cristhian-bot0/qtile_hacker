@@ -181,6 +181,8 @@ Asegurate de tener `alacritty` instalado: `sudo pacman -S alacritty`
 
 ## Screenshot para r/unixporn
 
+![Screenshot metal-dark](thema-metal-rock.png)
+
 Para un buen screenshot, instala estas herramientas:
 
 ```bash
