@@ -34,9 +34,9 @@
         border-color: #A06666 !important;
     }
 
-    /* Logo de Firefox */
-    .logo-and-wordmark .logo {
-        filter: grayscale(100%) brightness(0.6) !important;
+    /* Ocultar logo de Firefox */
+    .logo-and-wordmark {
+        display: none !important;
     }
 
     /* Links de accesos directos */
