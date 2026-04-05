@@ -2,7 +2,7 @@
 
 Dotfiles para Arch Linux con Qtile como gestor de ventanas, con temas cyberpunk y metal-dark.
 
-![Preview](preview.png)
+![Preview](thema-metal-rock.png)
 
 ## Requisitos
 
@@ -180,8 +180,6 @@ feh --bg-scale ~/.config/wallpapers/kali.jpg
 Asegurate de tener `alacritty` instalado: `sudo pacman -S alacritty`
 
 ## Screenshot para r/unixporn
-
-![Screenshot metal-dark](thema-metal-rock.png)
 
 Para un buen screenshot, instala estas herramientas:
 
