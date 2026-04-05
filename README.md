@@ -149,7 +149,7 @@ widget.Net(**base(bg='color3'), interface='wlp2s0'),  # cambia wlp2s0 por tu int
 | `mod + m` | Launcher de aplicaciones (rofi) |
 | `mod + shift + m` | Rofi window switcher |
 | `mod + b` | Abrir navegador (firefox) |
-| `mod + e` | Explorador de archivos |
+| `mod + e` | Explorador de archivos (thunar) |
 | `mod + w` | Cerrar ventana |
 | `mod + j/k/h/l` | Navegar entre ventanas |
 | `mod + shift + j/k` | Mover ventana en la pila |
