@@ -1,0 +1,62 @@
+/* Metal Dark - pagina de inicio y nueva pestana */
+
+@-moz-document url("about:home"), url("about:newtab"), url("about:blank") {
+    body {
+        background-color: #000000 !important;
+    }
+
+    /* Barra de busqueda */
+    .search-wrapper input {
+        background-color: #37383b !important;
+        color: #999999 !important;
+        border: 1px solid #805151 !important;
+    }
+
+    .search-wrapper input::placeholder {
+        color: #5F8787 !important;
+    }
+
+    .search-wrapper input:focus {
+        border-color: #A06666 !important;
+    }
+
+    /* Logo de Firefox */
+    .logo-and-wordmark .logo {
+        filter: grayscale(100%) brightness(0.6) !important;
+    }
+
+    /* Links de accesos directos */
+    .top-site-outer .title span {
+        color: #999999 !important;
+    }
+
+    .top-site-outer:hover {
+        background-color: #37383b !important;
+    }
+
+    .top-site-outer .tile {
+        background-color: #37383b !important;
+    }
+
+    /* Secciones */
+    .section-title span {
+        color: #A06666 !important;
+    }
+
+    /* Cards */
+    .card-outer {
+        background-color: #37383b !important;
+    }
+
+    .card-outer:hover {
+        background-color: #503333 !important;
+    }
+
+    .card-outer .card-title {
+        color: #999999 !important;
+    }
+
+    .card-outer .card-context-label {
+        color: #5F8787 !important;
+    }
+}
