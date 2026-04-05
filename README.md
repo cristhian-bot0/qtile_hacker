@@ -14,7 +14,7 @@ Dotfiles para Arch Linux con Qtile como gestor de ventanas, con temas cyberpunk 
 ### 1. Dependencias
 
 ```bash
-sudo pacman -S xorg git alacritty feh picom dmenu fish --needed base-devel
+sudo pacman -S xorg git alacritty rofi feh picom fish --needed base-devel
 ```
 
 ### 2. AUR helper (yay)
@@ -34,6 +34,8 @@ yay -S ttf-ubuntu-mono-nerd
 ```bash
 git clone https://github.com/cristhian-bot0/qtile_hacker.git
 cp -r qtile_hacker/qtile ~/.config/qtile
+cp -r qtile_hacker/alacritty ~/.config/alacritty
+cp -r qtile_hacker/rofi ~/.config/rofi
 cp -r qtile_hacker/picom ~/.config/picom
 cp -r qtile_hacker/fish ~/.config/fish
 cp -r qtile_hacker/wallpapers ~/.config/wallpapers
@@ -44,7 +46,7 @@ cp -r qtile_hacker/wallpapers ~/.config/wallpapers
 El archivo `config.json` no se incluye en el repo para que cada usuario elija su tema. Crealo manualmente:
 
 ```bash
-echo '{"theme": "cyberpunk"}' > ~/.config/qtile/config.json
+echo '{"theme": "metal-dark"}' > ~/.config/qtile/config.json
 ```
 
 ### 6. Cambiar shell a Fish
@@ -87,22 +89,33 @@ widget.Net(**base(bg='color3'), interface='wlp2s0'),  # cambia wlp2s0 por tu int
 ## Estructura
 
 ```
-qtile/
-├── config.py            # Punto de entrada, autostart y variables globales
-├── config.json          # Tema activo (se crea manualmente)
-├── autostart.sh         # Programas que inician con Qtile
-├── settings/
-│   ├── keys.py          # Atajos de teclado
-│   ├── groups.py        # Workspaces (iconos Nerd Font)
-│   ├── layouts.py       # Layouts disponibles (MonadTall, Bsp, Matrix...)
-│   ├── widgets.py       # Barra con powerline y widgets
-│   ├── screens.py       # Soporte multimonitor
-│   ├── theme.py         # Carga de temas desde JSON
-│   ├── mouse.py         # Configuracion del mouse
-│   └── path.py          # Ruta base de configuracion
-└── themes/              # Temas de colores en JSON
-    ├── cyberpunk.json
-    └── metal-dark.json
+├── alacritty/
+���   └── alacritty.toml   # Config del terminal con colores del tema
+├── rofi/
+│   ├── config.rasi      # Config general de rofi
+│   └── metal-dark.rasi  # Tema metal-dark para rofi
+├── picom/
+│   └── picom.conf       # Compositor: sombras, bordes, fading, opacidad
+├── fish/
+│   └── config.fish      # Config de Fish shell
+��── wallpapers/          # Fondos de pantalla
+├── qtile/
+│   ├── config.py        # Punto de entrada, autostart y variables globales
+│   ├── config.json      # Tema activo (se crea manualmente)
+│   ├── autostart.sh     # Programas que inician con Qtile
+│   ├─�� settings/
+│   │   ├── keys.py      # Atajos de teclado
+│   │   ├── groups.py    # Workspaces (iconos Nerd Font)
+│   │   ├── layouts.py   # Layouts disponibles (MonadTall, Bsp, Matrix...)
+│   │   ├── widgets.py   # Barra con powerline y widgets
+│   │   ├── screens.py   # Soporte multimonitor
+│   │   ├── theme.py     # Carga de temas desde JSON
+│   ���   ├── mouse.py     # Configuracion del mouse
+│   │   └── path.py      # Ruta base de configuracion
+│   └─�� themes/          # Temas de colores en JSON
+���       ├── cyberpunk.json
+│       └── metal-dark.json
+└── preview.png
 ```
 
 ## Atajos de teclado
@@ -110,8 +123,9 @@ qtile/
 | Atajo | Accion |
 |---|---|
 | `mod + Enter` | Abrir terminal (alacritty) |
+| `mod + m` | Launcher de aplicaciones (rofi) |
+| `mod + shift + m` | Rofi window switcher |
 | `mod + b` | Abrir navegador (firefox) |
-| `mod + m` | Menu de aplicaciones (dmenu) |
 | `mod + e` | Explorador de archivos |
 | `mod + w` | Cerrar ventana |
 | `mod + j/k/h/l` | Navegar entre ventanas |
@@ -150,7 +164,7 @@ Asegurate de tener `alacritty` instalado: `sudo pacman -S alacritty`
 
 - `cbatticon` — icono de bateria en systray
 - `volumeicon` — control de volumen en systray
-- [picom](https://wiki.archlinux.org/title/Picom) — compositor para transparencia
+- [picom](https://wiki.archlinux.org/title/Picom) — compositor para transparencia, sombras y bordes redondeados
 - `brightnessctl` — control de brillo
 - `scrot` — capturas de pantalla
 
