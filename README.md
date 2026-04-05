@@ -41,6 +41,19 @@ cp -r qtile_hacker/fish ~/.config/fish
 cp -r qtile_hacker/wallpapers ~/.config/wallpapers
 ```
 
+### 4.1. Tema de Firefox
+
+Copia el CSS al perfil de Firefox y habilita estilos personalizados:
+
+```bash
+FIREFOX_PROFILE=$(find ~/.config/mozilla/firefox -name "*.default-release" -type d | head -1)
+mkdir -p "$FIREFOX_PROFILE/chrome"
+cp qtile_hacker/firefox/userChrome.css "$FIREFOX_PROFILE/chrome/"
+echo 'user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);' >> "$FIREFOX_PROFILE/user.js"
+```
+
+Reinicia Firefox para aplicar el tema.
+
 ### 5. Crear archivo de tema
 
 El archivo `config.json` no se incluye en el repo para que cada usuario elija su tema. Crealo manualmente:
@@ -94,6 +107,8 @@ widget.Net(**base(bg='color3'), interface='wlp2s0'),  # cambia wlp2s0 por tu int
 ├── rofi/
 │   ├── config.rasi      # Config general de rofi
 │   └── metal-dark.rasi  # Tema metal-dark para rofi
+├── firefox/
+│   └── userChrome.css   # Tema metal-dark para Firefox
 ├── picom/
 │   └── picom.conf       # Compositor: sombras, bordes, fading, opacidad
 ├── fish/
