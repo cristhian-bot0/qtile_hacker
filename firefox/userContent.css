@@ -18,60 +18,16 @@
         z-index: -1;
     }
 
-    /* Barra de busqueda */
-    .search-wrapper input {
-        background-color: rgba(55, 56, 59, 0.85) !important;
-        color: #999999 !important;
-        border: 1px solid #805151 !important;
-        backdrop-filter: blur(4px) !important;
-    }
-
-    .search-wrapper input::placeholder {
-        color: #5F8787 !important;
-    }
-
-    .search-wrapper input:focus {
-        border-color: #A06666 !important;
-    }
-
-    /* Ocultar logo de Firefox */
-    .logo-and-wordmark {
+    /* Ocultar todo excepto el wallpaper */
+    .search-wrapper,
+    .logo-and-wordmark,
+    .top-sites,
+    .top-site-outer,
+    section,
+    .sections-list,
+    .search-handoff-button,
+    .fake-editable,
+    .body-wrapper > *:not(.outer-wrapper) {
         display: none !important;
-    }
-
-    /* Links de accesos directos */
-    .top-site-outer .title span {
-        color: #999999 !important;
-    }
-
-    .top-site-outer:hover {
-        background-color: rgba(55, 56, 59, 0.7) !important;
-    }
-
-    .top-site-outer .tile {
-        background-color: rgba(55, 56, 59, 0.7) !important;
-    }
-
-    /* Secciones */
-    .section-title span {
-        color: #A06666 !important;
-    }
-
-    /* Cards */
-    .card-outer {
-        background-color: rgba(55, 56, 59, 0.7) !important;
-        backdrop-filter: blur(4px) !important;
-    }
-
-    .card-outer:hover {
-        background-color: rgba(80, 51, 51, 0.7) !important;
-    }
-
-    .card-outer .card-title {
-        color: #999999 !important;
-    }
-
-    .card-outer .card-context-label {
-        color: #5F8787 !important;
     }
 }
