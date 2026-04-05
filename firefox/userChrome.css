@@ -1,0 +1,117 @@
+/* Metal Dark theme for Firefox */
+
+:root {
+    --metal-bg: #000000;
+    --metal-bg-alt: #37383b;
+    --metal-fg: #999999;
+    --metal-accent: #A06666;
+    --metal-border: #805151;
+    --metal-inactive: #5F8787;
+    --metal-dark-red: #704747;
+    --metal-darker-red: #603d3d;
+    --metal-darkest-red: #503333;
+}
+
+/* Barra de herramientas principal */
+#navigator-toolbox {
+    --toolbar-bgcolor: var(--metal-bg) !important;
+    --toolbar-color: var(--metal-fg) !important;
+    border-bottom: 1px solid var(--metal-bg-alt) !important;
+}
+
+/* Barra de pestanas */
+#titlebar {
+    background: var(--metal-bg) !important;
+}
+
+#TabsToolbar {
+    background: var(--metal-bg) !important;
+}
+
+/* Pestana activa */
+.tabbrowser-tab[selected] .tab-background {
+    background: var(--metal-bg-alt) !important;
+    border-bottom: 2px solid var(--metal-accent) !important;
+}
+
+.tabbrowser-tab[selected] .tab-label {
+    color: var(--metal-fg) !important;
+}
+
+/* Pestanas inactivas */
+.tabbrowser-tab:not([selected]) .tab-background {
+    background: var(--metal-bg) !important;
+}
+
+.tabbrowser-tab:not([selected]) .tab-label {
+    color: var(--metal-inactive) !important;
+}
+
+/* Hover en pestanas */
+.tabbrowser-tab:not([selected]):hover .tab-background {
+    background: var(--metal-dark-red) !important;
+}
+
+/* Barra de URL */
+#urlbar-background {
+    background: var(--metal-bg) !important;
+    border: 1px solid var(--metal-bg-alt) !important;
+}
+
+#urlbar:hover #urlbar-background,
+#urlbar[focused] #urlbar-background {
+    border-color: var(--metal-border) !important;
+}
+
+#urlbar-input {
+    color: var(--metal-fg) !important;
+}
+
+/* Barra de navegacion */
+#nav-bar {
+    background: var(--metal-bg) !important;
+    border-top: none !important;
+}
+
+/* Barra de bookmarks */
+#PersonalToolbar {
+    background: var(--metal-bg) !important;
+    color: var(--metal-fg) !important;
+}
+
+/* Boton de nueva pestana */
+#tabs-newtab-button,
+#new-tab-button {
+    fill: var(--metal-inactive) !important;
+}
+
+#tabs-newtab-button:hover,
+#new-tab-button:hover {
+    fill: var(--metal-accent) !important;
+}
+
+/* Iconos de la barra */
+#nav-bar toolbarbutton {
+    fill: var(--metal-fg) !important;
+}
+
+#nav-bar toolbarbutton:hover {
+    background: var(--metal-bg-alt) !important;
+}
+
+/* Sidebar */
+#sidebar-header {
+    background: var(--metal-bg) !important;
+    color: var(--metal-fg) !important;
+    border-bottom: 1px solid var(--metal-bg-alt) !important;
+}
+
+#sidebar-box {
+    background: var(--metal-bg) !important;
+}
+
+/* Findbar */
+.findbar-container {
+    background: var(--metal-bg) !important;
+    color: var(--metal-fg) !important;
+}
