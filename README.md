@@ -49,10 +49,13 @@ Copia el CSS al perfil de Firefox y habilita estilos personalizados:
 FIREFOX_PROFILE=$(find ~/.config/mozilla/firefox -name "*.default-release" -type d | head -1)
 mkdir -p "$FIREFOX_PROFILE/chrome"
 cp qtile_hacker/firefox/userChrome.css "$FIREFOX_PROFILE/chrome/"
+cp qtile_hacker/firefox/userContent.css "$FIREFOX_PROFILE/chrome/"
 echo 'user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);' >> "$FIREFOX_PROFILE/user.js"
 ```
 
-Reinicia Firefox para aplicar el tema.
+Reinicia Firefox para aplicar el tema. Incluye:
+- `userChrome.css` — interfaz de Firefox (barras, pestanas, URL bar) con colores metal-dark
+- `userContent.css` — pagina de inicio con wallpaper kali.jpg a pantalla completa
 
 ### 5. Crear archivo de tema
 
@@ -108,7 +111,8 @@ widget.Net(**base(bg='color3'), interface='wlp2s0'),  # cambia wlp2s0 por tu int
 │   ├── config.rasi      # Config general de rofi
 │   └── metal-dark.rasi  # Tema metal-dark para rofi
 ├── firefox/
-│   └── userChrome.css   # Tema metal-dark para Firefox
+│   ├── userChrome.css   # Tema metal-dark para interfaz de Firefox
+│   └── userContent.css  # Wallpaper en pagina de inicio
 ├── picom/
 │   └── picom.conf       # Compositor: sombras, bordes, fading, opacidad
 ├── fish/
