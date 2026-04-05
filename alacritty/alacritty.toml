@@ -1,0 +1,50 @@
+[window]
+opacity = 0.92
+decorations = "None"
+
+[window.padding]
+x = 8
+y = 8
+
+[font]
+size = 14
+
+[font.normal]
+family = "UbuntuMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "UbuntuMono Nerd Font"
+
+[font.italic]
+family = "UbuntuMono Nerd Font"
+
+# Metal Dark theme
+[colors.primary]
+background = "#000000"
+foreground = "#999999"
+
+[colors.normal]
+black = "#000000"
+red = "#A06666"
+green = "#5F8787"
+yellow = "#805151"
+blue = "#3F575B"
+magenta = "#704747"
+cyan = "#5F8787"
+white = "#999999"
+
+[colors.bright]
+black = "#37383b"
+red = "#A06666"
+green = "#5F8787"
+yellow = "#805151"
+blue = "#503333"
+magenta = "#603d3d"
+cyan = "#5F8787"
+white = "#c1c1c1"
+
+[[keyboard.bindings]]
+key = "Return"
+mods = "Shift"
+chars = "\u001B\r"
