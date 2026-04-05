@@ -179,6 +179,24 @@ feh --bg-scale ~/.config/wallpapers/kali.jpg
 ### El terminal no abre con mod+Enter
 Asegurate de tener `alacritty` instalado: `sudo pacman -S alacritty`
 
+## Screenshot para r/unixporn
+
+Para un buen screenshot, instala estas herramientas:
+
+```bash
+sudo pacman -S fastfetch cmatrix
+```
+
+Abre 3 terminales en un layout tileado:
+
+| Ventana | Comando | Descripcion |
+|---|---|---|
+| Terminal 1 (izquierda) | `fastfetch` | Info del sistema con logo de Arch |
+| Terminal 2 (derecha arriba) | `btop` | Monitor de sistema con colores |
+| Terminal 3 (derecha abajo) | `cmatrix` | Efecto matrix / estetica hacker |
+
+Usa `mod+shift+h/l` para ajustar tamanos y `mod+s` para capturar.
+
 ## Aplicaciones adicionales
 
 - `cbatticon` — icono de bateria en systray
@@ -186,6 +204,9 @@ Asegurate de tener `alacritty` instalado: `sudo pacman -S alacritty`
 - [picom](https://wiki.archlinux.org/title/Picom) — compositor para transparencia, sombras y bordes redondeados
 - `brightnessctl` — control de brillo
 - `scrot` — capturas de pantalla
+- `fastfetch` — info del sistema (recomendado para screenshots)
+- `cmatrix` — efecto matrix en terminal
+- `btop` — monitor de sistema
 
 ## Creditos
 
