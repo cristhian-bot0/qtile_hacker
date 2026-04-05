@@ -107,7 +107,7 @@ widget.Net(**base(bg='color3'), interface='wlp2s0'),  # cambia wlp2s0 por tu int
 
 ```
 ├── alacritty/
-���   └── alacritty.toml   # Config del terminal con colores del tema
+│   └── alacritty.toml   # Config del terminal con colores del tema
 ├── rofi/
 │   ├── config.rasi      # Config general de rofi
 │   └── metal-dark.rasi  # Tema metal-dark para rofi
@@ -121,22 +121,22 @@ widget.Net(**base(bg='color3'), interface='wlp2s0'),  # cambia wlp2s0 por tu int
 │   └── picom.conf       # Compositor: sombras, bordes, fading, opacidad
 ├── fish/
 │   └── config.fish      # Config de Fish shell
-��── wallpapers/          # Fondos de pantalla
+├── wallpapers/          # Fondos de pantalla
 ├── qtile/
 │   ├── config.py        # Punto de entrada, autostart y variables globales
 │   ├── config.json      # Tema activo (se crea manualmente)
 │   ├── autostart.sh     # Programas que inician con Qtile
-│   ├─�� settings/
+│   ├── settings/
 │   │   ├── keys.py      # Atajos de teclado
 │   │   ├── groups.py    # Workspaces (iconos Nerd Font)
 │   │   ├── layouts.py   # Layouts disponibles (MonadTall, Bsp, Matrix...)
 │   │   ├── widgets.py   # Barra con powerline y widgets
 │   │   ├── screens.py   # Soporte multimonitor
 │   │   ├── theme.py     # Carga de temas desde JSON
-│   ���   ├── mouse.py     # Configuracion del mouse
+│   │   ├── mouse.py     # Configuracion del mouse
 │   │   └── path.py      # Ruta base de configuracion
-│   └─�� themes/          # Temas de colores en JSON
-���       ├── cyberpunk.json
+│   └── themes/          # Temas de colores en JSON
+│       ├── cyberpunk.json
 │       └── metal-dark.json
 └── preview.png
 ```
